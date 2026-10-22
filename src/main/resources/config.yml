@@ -1,0 +1,4 @@
+token: "请填入从浏览器抓取的Bearer token"
+refresh_seconds: 60
+enable_manual_checkin: true
+checkin_token: "你的签到 authorization Token"

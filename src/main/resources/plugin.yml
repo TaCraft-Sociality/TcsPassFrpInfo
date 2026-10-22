@@ -1,0 +1,16 @@
+name: TCSPassFRPInfo
+main: tcs.tcspassfrpinfo.TCSPassFRPInfo
+version: 1.0.0
+author: tcs
+api-version: 1.21
+commands:
+  tcspassfrpinfo:
+    description: 获取 FRP 账户流量信息
+    usage: /tcspassfrpinfo <info|reload|checkin>
+    permission: tcspassfrpinfo.admin
+    permission-message: "§c你没有权限使用该命令！"
+permissions:
+  tcspassfrpinfo.admin:
+    description: 管理员权限，可使用 /tcspassfrpinfo 命令
+    default: op
+depend: [PlaceholderAPI]
